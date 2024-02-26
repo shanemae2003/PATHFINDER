@@ -1,0 +1,7 @@
+from PIL import Image
+
+# Open the floorplan image
+floorplan = Image.open("path/to/floorplan.png")
+
+# Use the floorplan as a background for the code assistant window
+assistant_window.paste(floorplan, (0, 0))
